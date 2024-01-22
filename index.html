@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is signup page</title>
+    <link rel="stylesheet" href="form.css">
+    <style>
+        *{
+            text-align: center;
+            justify-content: center;
+            background-color: beige;
+            
+        }
+        .outer-box{
+         
+          width: 400px;
+          height:420px;
+          margin:120px 0px 0px 430px;
+          border: 2px solid black;
+          box-shadow: 10px 5px 10px 5px rgb(157, 139, 173);
+         
+        }
+        .signupheadar{
+            padding-top: 10px;
+          font-size: 20px;
+          font-weight: bold;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .signupbody{
+            font-size: 15px;
+            font-weight: bold;
+            font-family: cursive;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="outer-box">
+        <div class="inner-box">
+    <header class="signupheadar">
+        <h2>SIGNUP</h2>
+        <p>it will take only 30 seconds to complete</p>
+    </header>
+        
+    
+        <main class="signupbody">
+            <form action="#">
+                 <p>
+                    <label id="name" for="fullname">Full Name</label>
+                    <br>
+                    <input type="text" id="fullname" placeholder="Niteesh kumar" required>
+                 </p>
+                 <p>
+                    <label for="email">Email address:</label><br>
+                    <input type="email" id="email" placeholder="kumarnitish43686@gmail.com" required>
+                 </p>
+                 <p>
+                    <label for="password">Enter password:</label><br>
+                    <input type="password" id="password" placeholder="it should atleast eight digit" required>
+                 </p>
+                 <p>
+                    <input type="submit" id="submit"  value="submit">
+                 </p>
+                 <p>
+                    <label for="checkboc">above details  correct and verified</label>
+                    <input type="checkbox" required>
+                 </p>
+            </form>
+            <footer class="footer">
+                 <p>already have account createaccount <a href="#">login</a></p>
+            </footer>
+        </main>
+    </div>
+    <div class="circle c1"></div>
+    <div class="circle c2"></div>
+</div>
+</body>
+</html>
